@@ -67,12 +67,4 @@ int main()
 	return 0;
 }
 
-/*
-time complexity: O(log(n))
 
-Let p be the position of element to be searched. 
-Number of steps for finding high index ‘h’ is O(Log p). 
-The value of ‘h’ must be less than 2*p. The number of elements between h/2 and h must be O(p). 
-Therefore, time complexity of Binary Search step is also O(Log p) 
-and overall time complexity is 2*O(Log p) which is O(Log p
-*/
