@@ -66,5 +66,3 @@ int main()
 		cout << "Element found at index " << ans;
 	return 0;
 }
-
-
