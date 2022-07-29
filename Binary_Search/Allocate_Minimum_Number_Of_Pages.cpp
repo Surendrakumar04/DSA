@@ -63,7 +63,7 @@ class Solution
             h += A[i]; // sum of all pages
         }
         // we have l and h --> it will minimise the maximum no of pages alloted to a student;
-        
+        // we have to find the minimum number of pages.
         while(l <= h){
             int mid = (l + h)/2;
             // if possible, then mid can be  the answer, 
