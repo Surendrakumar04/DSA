@@ -29,7 +29,8 @@ in following fashion :
 Of the 3 cases, Option 3 has the minimum pages = 113. 
 
 Approach:
-The idea is to use Binary Search. We fix a value for the number of pages as mid of current minimum and maximum. We initialize minimum and maximum as 0 or max of all books and sum-of-all-pages respectively.
+The idea is to use Binary Search. We fix a value for the number of pages as mid of current minimum and maximum.
+We initialize minimum and maximum as 0 Or max of all books and sum-of-all-pages respectively.
 If a current mid can be a solution, then we search on the lower half, else we search in higher half.
 Now the question arises, how to check if a mid value is feasible or not? Basically,
 we need to check if we can assign pages to all students in a way that the maximum number doesn’t exceed current value. To do this,
